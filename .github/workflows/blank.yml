@@ -18,3 +18,8 @@ jobs:
     - name: run3
       run: |
         docker run jcansdale/docker-update@sha256:7fc4fda1d3772dfdbfc7b54bc7d3ea6f8a7ac6caf3fac79894e22a6a5ffca1df
+    - name: run4
+      run: |
+        docker run jcansdale/docker-update@sha256:729d08ae387cde68b1568b8df250f57352901572a73a21d006e67540c12c2af1
+
+
