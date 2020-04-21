@@ -11,8 +11,8 @@ jobs:
     steps:
     - name: run1
       run: |
-        docker run docker run jcansdale/docker-update@sha256:97ca80d69af299c49bdc2a0d6382ee826127b8a5e3f64d23822d0a2d36ff560a
+        docker run jcansdale/docker-update@sha256:97ca80d69af299c49bdc2a0d6382ee826127b8a5e3f64d23822d0a2d36ff560a
     - name: run2
       run: |
-        docker run docker run jcansdale/docker-update@sha256:dc2f28dd8f886c5be0872bc63b9360d5069f35a392fac0b0aaae95c715af9733
+        docker run jcansdale/docker-update@sha256:dc2f28dd8f886c5be0872bc63b9360d5069f35a392fac0b0aaae95c715af9733
         
