@@ -1,4 +1,8 @@
-# docker-update
+# Test to see if Docker Hub removes images when tags are removed
+
+This will fail if/when any un-tagged images are deleted.
+
+![.github/workflows/blank.yml](https://github.com/jcansdale/docker-update/workflows/.github/workflows/blank.yml/badge.svg)
 
 https://www.jfrog.com/jira/browse/RTFACT-11859
 
