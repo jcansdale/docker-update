@@ -1,4 +1,4 @@
-# Test to see if Docker Hub removes images when tags are removed
+# Check to see if Docker Hub removes images
 
 This will fail if/when any un-tagged images are deleted.
 
