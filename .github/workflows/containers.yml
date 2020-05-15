@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: login
-      run: docker login containers.pkg.github.com -u token -p ${{ secrets.GITHUB_TOKEN }}
+      run: docker login containers.pkg.github.com -u token -p ${{ secrets.GHCR_TOKEN }}
     - name: run1
       run: docker run containers.pkg.github.com/jcansdale/docker-update@sha256:b5558eebaba358cf3a4212eb9b3fc917ef620cc8e913446d16a78a0c5b78d68f
       if: ${{ always() }}
