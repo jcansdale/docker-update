@@ -15,11 +15,11 @@ jobs:
     - name: login
       run: docker login containers.pkg.github.com -u token -p ${{ secrets.GITHUB_TOKEN }}
     - name: run1
-      run: |
-        docker run containers.pkg.github.com/jcansdale/docker-update@sha256:b5558eebaba358cf3a4212eb9b3fc917ef620cc8e913446d16a78a0c5b78d68f
+      run: docker run containers.pkg.github.com/jcansdale/docker-update@sha256:b5558eebaba358cf3a4212eb9b3fc917ef620cc8e913446d16a78a0c5b78d68f
+      if: ${{ always() }}
     - name: run2
-      run: |
-        docker run containers.pkg.github.com/jcansdale/docker-update@sha256:b6ba58c997411eaaef4260cb949221eb435b8a06f13165cd377c5d3108d36b13
+      run: docker run containers.pkg.github.com/jcansdale/docker-update@sha256:b6ba58c997411eaaef4260cb949221eb435b8a06f13165cd377c5d3108d36b13
+      if: ${{ always() }}
     - name: run3
-      run: |
-        docker run containers.pkg.github.com/jcansdale/docker-update@sha256:9ca8f0131a509b3f516d20abc4b091dc68e354e5755d027ab6b7814b5d08a2f5
+      run: docker run containers.pkg.github.com/jcansdale/docker-update@sha256:9ca8f0131a509b3f516d20abc4b091dc68e354e5755d027ab6b7814b5d08a2f5
+      if: ${{ always() }}
