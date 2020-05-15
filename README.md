@@ -13,3 +13,4 @@ Where is this documented?
 The `latest` tag has been deleted from:
 https://hub.docker.com/repository/docker/jcansdale/docker-update
 
+
