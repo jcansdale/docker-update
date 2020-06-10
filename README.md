@@ -10,11 +10,11 @@ https://www.jfrog.com/jira/browse/RTFACT-11859
 
 Where is this documented?
 
-The `latest` tag has been deleted from:
+- The `latest` tag has been deleted from:
 https://hub.docker.com/r/jcansdale/docker-update
 
-The images still exists, but they aren't visible on the private view:
+- The images still exists, but they aren't visible on the private view:
 https://hub.docker.com/repository/docker/jcansdale/docker-update
 
-If I'd been using Docker to build them, I think they would be visible here:
+- If I'd been using Docker to build them, I think they would be visible here:
 https://hub.docker.com/repository/docker/jcansdale/docker-update/builds
