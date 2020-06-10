@@ -1,4 +1,4 @@
-# Check to see if Docker Hub and GHCR removes images
+# Check to see if Docker Hub and GHCR remove untagged container images
 
 This will fail if/when any un-tagged images are deleted from Docker:
 ![.github/workflows/blank.yml](https://github.com/jcansdale/docker-update/workflows/.github/workflows/blank.yml/badge.svg)
